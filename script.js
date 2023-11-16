@@ -1,6 +1,7 @@
 //pseudo When the user inputs a number initialize a counter variable and set its value to 0
 //While counter is smaller than user inputted number increment the counter by 1
 //Print the value of the counter variable
+// % is modulo and it returnds the remainder
 
 function fizzBuzz(i){ //add the i here because your adding the local scope from the other (f)
     if (i % 3 === 0) {
@@ -17,4 +18,4 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
  for (let i = 1; i <= answer; i++){
     fizzBuzz(i);
  }
-
+//i++ makes an integer increase the to the next number in the function -- use i and not a number like 0 or 1
